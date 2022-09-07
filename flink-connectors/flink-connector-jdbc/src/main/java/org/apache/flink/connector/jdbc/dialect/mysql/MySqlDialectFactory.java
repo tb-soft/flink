@@ -27,7 +27,7 @@ import org.apache.flink.connector.jdbc.dialect.JdbcDialectFactory;
 public class MySqlDialectFactory implements JdbcDialectFactory {
     @Override
     public boolean acceptsURL(String url) {
-        return url.startsWith("jdbc:mysql:") || url.startsWith("jdbc:sundb:");
+        return url.startsWith("jdbc:mysql:");
     }
 
     @Override
