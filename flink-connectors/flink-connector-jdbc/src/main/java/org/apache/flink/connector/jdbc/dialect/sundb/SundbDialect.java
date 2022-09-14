@@ -99,7 +99,6 @@ public class SundbDialect extends AbstractDialect {
                 LogicalTypeRoot.BINARY,
                 LogicalTypeRoot.VARBINARY,
                 LogicalTypeRoot.DECIMAL,
-                LogicalTypeRoot.TINYINT,
                 LogicalTypeRoot.SMALLINT,
                 LogicalTypeRoot.INTEGER,
                 LogicalTypeRoot.BIGINT,
